@@ -7,5 +7,5 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-    user_input = Integer("1", "2", "3", "4", "5", "6", "7", "8", "9")
+    user_input = Integer("1".."9")
 end
